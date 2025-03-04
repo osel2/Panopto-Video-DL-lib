@@ -19,13 +19,13 @@ setup(
     url='https://github.com/Panopto-Video-DL/Panopto-Video-DL-lib',
     license='MIT',
     packages=find_packages(),
-    python_requires='>=3.7',
+    python_requires='==3.7.9',
     install_requires=[
-        'ffmpeg-progress-yield~=0.2.0',
-        'requests~=2.27.1',
-        'pycryptodomex~=3.12.0',
-        'yarl~=1.7.2',
-        'tqdm~=4.62.2'
+        'ffmpeg-progress-yield==0.2.0',
+        'requests==2.27.1',
+        'pycryptodomex==3.12.0',
+        'yarl==1.7.2',
+        'tqdm==4.62.2'
     ],
     entry_points="""
         [console_scripts]
